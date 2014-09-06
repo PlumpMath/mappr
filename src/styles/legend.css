@@ -1,0 +1,25 @@
+.legend-container {
+  position: absolute;
+  top: 80px;
+  left: 30px;
+  width: 200px;
+  border: 4px solid black;
+  border-radius: 5px;
+  background: white;
+  z-index: 5;
+  text-align: center;
+  box-shadow: 0 0 10px 0 rgba(50,50,50,0.5);
+}
+
+.legend-container .race {
+  font-size: 1.2em;
+  opacity: 0.8;
+  transition: opacity 0.5s;
+  cursor: pointer;
+  border-bottom: 1px solid black;
+}
+
+.legend-container .race:hover {
+  opacity: 1;
+  transition: opacity 0.5s;
+}

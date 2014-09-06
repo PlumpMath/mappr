@@ -1,0 +1,27 @@
+{
+  "name": "mappr",
+  "version": "0.0.1",
+  "description": "Generate map of USAC Races",
+  "main": "index.js",
+  "scripts": {
+    "test": "testling | faucet"
+  },
+  "author": "polyrhythm",
+  "license": "MIT",
+  "dependencies": {
+    "es6-promise": "^1.0.0",
+    "faucet": "0.0.1",
+    "gulp": "^3.8.7",
+    "gulp-browserify": "^0.5.0",
+    "leaflet-react": "git://github.com/Polyrhythm/react-leaflet.git#master",
+    "please": "git://github.com/Fooidge/PleaseJS.git#master",
+    "gulp-concat": "^2.3.5",
+    "gulp-order": "^1.1.1",
+    "leaflet": "^0.7.3",
+    "react": "^0.11.1",
+    "react-async": "^1.0.1",
+    "reactify": "^0.14.0",
+    "tape": "^2.14.0",
+    "testling": "^1.7.0"
+  }
+}
