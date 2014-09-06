@@ -8,7 +8,7 @@ var TileLayer = Leaflet.TileLayer;
 var Marker = Leaflet.Marker;
 var Popup = Leaflet.Popup;
 var Legend = require('./legend');
-var Awesome = require ('../../../../lib/Leaflet.awesome-markers');
+var Awesome = require ('../../../../lib/leaflet.awesome-markers');
 
 function getRaces() {
   return {
